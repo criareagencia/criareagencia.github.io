@@ -177,9 +177,7 @@ a:active {
     text-decoration: none
 }
 
-footer {
-    background-color: #DBE8F6
-}
+
 
 button:focus { outline: none !important; box-shadow: none !important; }
 
