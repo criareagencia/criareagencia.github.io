@@ -177,9 +177,13 @@ a:active {
     text-decoration: none
 }
 
+<<<<<<< HEAD
 footer {
     background-color: #DBE8F6
 }
+=======
+
+>>>>>>> e0dad3a145bf987f79da38b5f0fe5aad01df43de
 
 button:focus { outline: none !important; box-shadow: none !important; }
 
