@@ -557,12 +557,17 @@
           </a>
       </div>
 
-      <p class="text-center text-cnpj py-lg-0 py-4">55.104.124/0001-09 | © 2024. Todos os direitos reservados.</p>
-
+      <p class="text-center text-cnpj py-lg-0 py-4">
+        55.104.124/0001-09 | © <span id="ano-atual"></span>. Todos os direitos reservados.
+      </p>
+      
 
     </div>
   </footer>
  
+  <script>
+    document.getElementById("ano-atual").textContent = new Date().getFullYear();
+  </script>
   
 
 <script>
